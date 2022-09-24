@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="title" content="Raroin" />
+		<meta name="description" content="Premium NFT marketplace theme" />
+		<meta
+			name="keywords"
+			content="bootstrap, creabik, ThemeForest, bootstrap5, agency theme, saas
+			theme, sass, html5"
+			/>
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="English" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title> - Profile </title>
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+		<!-- 🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈 STYLES -->
+		<link rel="stylesheet" href="assets/css/plugins/remixicon.css" />
+		<link
+			rel="stylesheet"
+			href="assets/css/plugins/bootstrap.min.css"
+			/>
+		<link
+			rel="stylesheet"
+			href="assets/css/plugins/swiper-bundle.min.css"
+			/>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body class="body">
+
+		<div class="overflow-hidden">
+
+			
+			<div class="bg-dark py-10">
+				<div class="container">
+					<div
+						class="text-center
+						d-flex
+						justify-content-between
+						space-x-10
+						align-items-center">
+						<div class="space-x-10 d-flex align-items-center">
+							<lottie-player
+								src="https://assets6.lottiefiles.com/private_files/lf30_kqshlcsx.json"
+								background="transparent"
+								speed="2"
+								style="width: 50px; height: 50px"
+								loop
+								autoplay></lottie-player>
+							<p class="color_white">
+								Теперь доступна
+								<span style="color: rgb(0, 255, 170)">тёмная тема </span>
+							</p>
+						</div>
+
+						<div class="mode_switcher space-x-10">
+							<a href="Home1.html#" class="light d-flex align-items-center is_active">
+								<i class="ri-sun-fill"></i> 
+							</a>
+							<a href="Home1.html#" class="dark d-flex align-items-center">
+								<i class="ri-moon-fill"></i> 
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade popup" id="popup_bid_success" tabindex="-1" role="dialog"
+			    aria-hidden="true">
+			    <div class="modal-dialog modal-dialog-centered" role="document">
+			        <div class="modal-content">
+			            <button type="button" class="close" data-dismiss="modal"
+			                aria-label="Close">
+			                <span aria-hidden="true">&times;</span>
+			            </button>
+			            <div class="modal-body space-y-20 p-40">
+			                <h3 class="text-center">Your Bidding
+			                    Successfuly Added</h3>
+			                <p class="text-center">your bid <span class="color_text txt
+			                        _bold">(16ETH) </span> has been listing
+			                    to our database</p>
+			
+			                <a href="Profile.html" class="btn btn-dark w-full"> Watch the listings</a>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+			<div class="modal fade popup" id="popup_bid" tabindex="-1" role="dialog"
+			    aria-hidden="true">
+			    <div class="modal-dialog modal-dialog-centered" role="document">
+			        <div class="modal-content">
+			            <button type="button" class="close" data-dismiss="modal"
+			                aria-label="Close">
+			                <span aria-hidden="true">&times;</span>
+			            </button>
+			            <div class="modal-body space-y-20 p-40">
+			                <h3>Place a Bid</h3>
+			                <p>You must bid at least <span class="color_black">15 ETH</span>
+			                </p>
+			                <input type="text" class="form-control"
+			                    placeholder="00.00 ETH">
+			
+			                <p>Enter quantity. <span class="color_green">5 available</span>
+			                </p>
+			                <input type="text" class="form-control"
+			                    value="1">
+			                <div class="hr"></div>
+			                <div class="d-flex justify-content-between">
+			                    <p> You must bid at least:</p>
+			                    <p class="text-right color_black txt _bold"> 67,000 ETH </p>
+			                </div>
+			                <div class="d-flex justify-content-between">
+			                    <p> service free:</p>
+			                    <p class="text-right color_black txt _bold"> 0,901 ETH </p>
+			                </div>
+			                <div class="d-flex justify-content-between">
+			                    <p> Total bid amount:</p>
+			                    <p class="text-right color_black txt _bold"> 56,031 ETH </p>
+			                </div>
+			                <a href="Profile.html" class="btn btn-primary w-full"
+			                    data-toggle="modal"
+			                    data-target="#popup_bid_success"
+			                    data-dismiss="modal"
+			                    aria-label="Close"> Place a bid</a>
+			            </div>
+			        </div>
+			    </div>
+			</div><!-- ====== header -->
+			
+			<header class="header__1 js-header"  id="header">
+				<div class="container">
+					<div class="wrapper js-header-wrapper">
+						<div class="header__logo">
+							<a class="h4_09" href="index.html">
+								Kyzmat24
+							</a>
+						</div>
+			
+						<!-- ==================  -->
+						<div class="header__menu">
+							<ul class="d-flex space-x-20">
+								<li class="has_popup">
+									<a class="color_black" href="Home1.html#">Главная</a>
+								</li>
+								<li>
+									<a class="color_black" href="all_profiles.html"> Все объявления</a>
+								</li>
+								<li>
+									<a class="color_black" href="all_posts.html"> Все заказы</a>
+								</li>
+								<li>
+									<a class="color_black" href="Profile.html"> О нас</a>
+								</li>
+								<li>
+									<a class="color_black" href="otzyv.html"> Отзывы</a>
+								</li>
+								<li>
+									<a class="color_black" href="#">Поиск</a>
+								</li>
+								<li class="has_popup2">
+									<a class="color_black" href="#">Категории <i class="ri-more-2-fill"></i></a>
+									<ul class="menu__popup2 space-y-20">
+										<div class="row sub_menu_row">
+										
+											<div class="col-lg-6 space-y-10">
+												<!-- =============== -->
+												<li>
+													<a href="Activity.html">
+														<i class="ri-line-chart-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="edit_profile.html">
+														<i class="ri-edit-line"></i>
+														Категория
+													</a>
+												</li>
+										
+												<!-- =============== -->
+												<li>
+													<a href="Item-details.html">
+														<i class="ri-gallery-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="Live_Auctions.html">
+														<i class="ri-auction-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="Upcoming_projects.html">
+														<i class="ri-upload-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="ranking.html">
+														<i class="ri-funds-line"></i>
+														Категория
+													</a>
+												</li>
+										
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="newsletter.html">
+														<i class="ri-mail-open-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="forum.html">
+														<i class="ri-discuss-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="post_details.html">
+														<i class="ri-chat-check-line"></i>
+														Категория
+													</a>
+												</li>
+										
+												<!-- =============== -->
+												<li>
+													<a href="no_results.html">
+														<i class="ri-file-search-line"></i>
+														Категория
+													</a>
+												</li>
+										
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="Contact.html">
+														<i class="ri-customer-service-2-line"></i>
+														Категория
+													</a>
+												</li>
+										
+											</div>
+										<div class="col-lg-6 space-y-10">
+										
+												<!-- =============== -->
+												<li>
+													<a href="Upload-type.html">
+														<i class="ri-upload-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="Connect-wallet.html">
+														<i class="ri-wallet-3-line"></i>
+														Категория
+													</a>
+												</li>
+										
+												<!-- =============== -->
+												<li>
+													<a href="questions.html">
+														<i class="ri-question-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="Submit_request.html">
+														<i class="ri-share-forward-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="Submit_request.html">
+														<i class="ri-message-3-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="blog.html">
+														<i class="ri-layout-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a class="is_new" href="article.html">
+														<i class="ri-newspaper-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="register.html">
+														<i class="ri-lock-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="login.html">
+														<i class="ri-shield-user-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="Privacy.html">
+														<i class="ri-file-text-line"></i>
+														Категория
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a c href="404.html">
+														<i class="ri-file-damage-line"></i>
+														Категория
+													</a>
+												</li>
+											</div>
+										</div>						</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- ================= -->
+						
+						<div class="header__btns">
+							<a class="btn btn-grad btn-sm" href="register.html">
+								<img width="30" src="assets/img/icons/metamask.svg" alt="">
+								Регистрация</a>
+						</div>
+						<div class="header__burger js-header-burger"></div>
+			
+						<div class="header__mobile js-header-mobile">
+							<div class="header__mobile__menu space-y-40">
+								<ul class="d-flex space-y-20">
+									<li> <a class="color_black" href="Marketplace.html"> Marketplace</a> </li>
+									<li> <a class="color_black" href="Collections.html"> Collections</a> </li>
+									<li> <a class="color_black" href="Profile.html"> Profile</a> </li>
+									<li> <a class="color_black" href="Creators.html"> Creators</a> </li>
+						
+								</ul>
+								<div class="space-y-20">
+									<div class="header__search in_mobile w-full">
+										<input type="text" placeholder="Search" />
+										<button class="header__result">
+											<i class="ri-search-line"></i>
+										</button>
+									</div>
+									<a class="btn btn-grad btn-sm" href="Connect-wallet.html">Connect
+										wallet</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+			<div class="mb-100">
+				<div class="hero__profile">
+					<div class="cover">
+						<img src="assets/img/bg/prrofile.png" alt="">
+					</div>
+					<div class="infos">
+						<div class="container">
+							<div class="row flex-wrap align-items-center justify-content-between sm:space-y-50">
+								<div class="col-md-auto mr-20">
+									<div class="avatars d-flex space-x-20
+										align-items-center">
+										<div class="avatar_wrap">
+											<img class="avatar avatar-lg"
+												src="assets/img/avatars/avatar_4.png"
+												alt="avatar">
+										</div>
+										<h5>@Kurmanbek<h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6 col-md-8 order-md-0 order-1">
+						<div class="profile__sidebar">
+							<div class="space-y-40">
+								<div class="space-y-10">
+									<h5>Обо мне</h5>
+									<div class="box space-y-20">
+										<p class="text_info_adi"><span class="txt_sm color_text">Описание: </span> Здравствуйте меня Курманбек, middle Python devoloper, работаю учителем в It-Run academy Здравствуйте меня Курманбек, middle Python devoloper, работаю учителем в It-Run academy Здравствуйте меня Курманбек, middle Python devoloper, работаю учителем в It-Run academy</p>
+										<div class="row">
+											<div class="col-8">
+												<span class="txt_sm color_text">Категория:</span>
+												<h4>Програмист</h4>
+											</div>
+											<div class="col-8">
+												<span class="txt_sm color_text">Локация:</span>
+												<h4>Ош</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="space-y-10">
+									<h5>Контакты</h5>
+									<div class="box">
+										<ul class="social_profile space-y-10 overflow-hidden">
+											<li>
+												<a href="Profile.html#">
+													<i class="ri-facebook-line"></i>
+													<span class="color_text">facebook/</span>
+													@creabik
+												</a>
+											</li>
+											<li>
+												<a href="Profile.html#">
+													<i class="ri-messenger-line"></i>
+													<span class="color_text"> messenger/</span>
+													@creabik
+												</a>
+											</li>
+											<li>
+												<a href="Profile.html#">
+													<i class="ri-whatsapp-line"></i>
+													<span class="color_text"> whatsapp/</span>
+													@creabik
+												</a>
+											</li>
+											<li>
+												<a href="Profile.html#">
+													<i class="ri-youtube-line"></i>
+													<span class="color_text">youtube/</span>
+													@creabik
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 order-md-1 order-0">
+						<div class="profile__content">
+							<div class="d-flex justify-content-between">
+								<div class="space-x-10">
+									<h5 class="">Мои заказы</h5>
+									<div class="">
+										<div class="row">
+			                                <div class="col-lg-6">
+			                                    <div class="blog has_style_grid">
+			                                        <div class="row align-items-center">
+			                                            <div class="col-row col-12">
+			                                                <div class="blog-wrap">
+			                                                    <h3 class="blog-title"><a href="article.html">
+			                                                            Design Trends From Top Designers
+			                                                        </a>
+			                                                    </h3>
+			                                                    <p>
+																	<span class="txt txt_sm_bold color_black">Локация: </span>Ош
+																</p>
+																<p>
+																	<span class="txt txt_sm_bold color_black">Категория: </span>Дизайн
+																</p>
+			                                                    <div class="blog-author-detail
+			                                                        d-flex
+			                                                        justify-content-between
+			                                                        align-items-center">
+																	<a class="btn btn-primary" href="index.html#Demos">Изменить заказ</a>
+			                                                        <span class="font-semibold
+			                                                            text-gray">08 May</span>
+			                                                    </div>
+			                                                </div>
+			
+			                                            </div>
+			
+			                                        </div>
+			                                    </div>
+			                                </div>
+			                                <div class="col-lg-6">
+			                                    <div class="blog has_style_grid">
+			                                        <div class="row align-items-center">
+			                                            <div class="col-row col-12">
+			                                                <div class="blog-wrap">
+			                                                    <h3 class="blog-title"><a href="article.html">
+			                                                            Design Trends From Top Designers
+			                                                        </a>
+			                                                    </h3>
+			                                                    <p>
+																	<span class="txt txt_sm_bold color_black">Локация: </span>Ош
+																</p>
+																<p>
+																	<span class="txt txt_sm_bold color_black">Категория: </span>Дизайн
+																</p>
+			                                                    <div class="blog-author-detail
+			                                                        d-flex
+			                                                        justify-content-between
+			                                                        align-items-center">
+																	<a class="btn btn-primary" href="index.html#Demos">Изменить заказ</a>
+			                                                        <span class="font-semibold
+			                                                            text-gray">08 May</span>
+			                                                    </div>
+			                                                </div>
+			
+			                                            </div>
+			
+			                                        </div>
+			                                    </div>
+			                                </div>
+											<div class="col-lg-6">
+			                                    <div class="blog has_style_grid">
+			                                        <div class="row align-items-center">
+			                                            <div class="col-row col-12">
+			                                                <div class="blog-wrap">
+			                                                    <h3 class="blog-title"><a href="article.html">
+			                                                            Design Trends From Top Designers
+			                                                        </a>
+			                                                    </h3>
+			                                                    <p>
+																	<span class="txt txt_sm_bold color_black">Локация: </span>Ош
+																</p>
+																<p>
+																	<span class="txt txt_sm_bold color_black">Категория: </span>Дизайн
+																</p>
+			                                                    <div class="blog-author-detail
+			                                                        d-flex
+			                                                        justify-content-between
+			                                                        align-items-center">
+																	<a class="btn btn-primary" href="index.html#Demos">Изменить заказ</a>
+			                                                        <span class="font-semibold
+			                                                            text-gray">08 May</span>
+			                                                    </div>
+			                                                </div>
+			
+			                                            </div>
+			
+			                                        </div>
+			                                    </div>
+			                                </div>
+											<div class="col-lg-6">
+			                                    <div class="blog has_style_grid">
+			                                        <div class="row align-items-center">
+			                                            <div class="col-row col-12">
+			                                                <div class="blog-wrap">
+			                                                    <h3 class="blog-title"><a href="article.html">
+			                                                            Design Trends From Top Designers
+			                                                        </a>
+			                                                    </h3>
+			                                                    <p>
+																	<span class="txt txt_sm_bold color_black">Локация: </span>Ош
+																</p>
+																<p>
+																	<span class="txt txt_sm_bold color_black">Категория: </span>Дизайн
+																</p>
+			                                                    <div class="blog-author-detail
+			                                                        d-flex
+			                                                        justify-content-between
+			                                                        align-items-center">
+																	<a class="btn btn-primary" href="index.html#Demos">Изменить заказ</a>
+			                                                        <span class="font-semibold
+			                                                            text-gray">08 May</span>
+			                                                    </div>
+			                                                </div>
+			
+			                                            </div>
+			
+			                                        </div>
+			                                    </div>
+			                                </div>
+											<div class="col-lg-6">
+			                                    <div class="blog has_style_grid">
+			                                        <div class="row align-items-center">
+			                                            <div class="col-row col-12">
+			                                                <div class="blog-wrap">
+			                                                    <h3 class="blog-title"><a href="article.html">
+			                                                            Design Trends From Top Designers
+			                                                        </a>
+			                                                    </h3>
+			                                                    <p>
+																	<span class="txt txt_sm_bold color_black">Локация: </span>Ош
+																</p>
+																<p>
+																	<span class="txt txt_sm_bold color_black">Категория: </span>Дизайн
+																</p>
+			                                                    <div class="blog-author-detail
+			                                                        d-flex
+			                                                        justify-content-between
+			                                                        align-items-center">
+																	<a class="btn btn-primary" href="index.html#Demos">Изменить заказ</a>
+			                                                        <span class="font-semibold
+			                                                            text-gray">08 May</span>
+			                                                    </div>
+			                                                </div>
+			
+			                                            </div>
+			
+			                                        </div>
+			                                    </div>
+			                                </div>
+			                            </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<footer class="footer__1">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 space-y-20">
+							<div class="footer__logo">
+								<a href="index.html">
+									<img src="assets/img/logos/Logo.svg" alt="logo" id="logo_js_f">
+								</a>
+							</div>
+							<p class="footer__text">
+								raroin is a shared liquidity NFT market smart contract
+							</p>
+							<div>
+								<ul class="footer__social space-x-10 mb-40">
+									<li> <a href="Profile.html"> <i class="ri-facebook-line"></i> </a>
+									</li>
+									<li> <a href="Profile.html"> <i class="ri-messenger-line"></i> </a>
+									</li>
+									<li> <a href="Profile.html"> <i class="ri-whatsapp-line"></i> </a>
+									</li>
+									<li> <a href="Profile.html"> <i class="ri-youtube-line"></i> </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h6 class="footer__title">Raroin</h6>
+							<ul class="footer__list">
+								<li> <a href="Home1.html"> Home1 </a>
+								</li>
+								<li> <a href="Home2.html"> Home2
+									</a> </li>
+								<li> <a href="Home3.html"> Home3 </a> </li>
+								<li> <a href="Marketplace.html"> Marketplace
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h6 class="footer__title">Assets</h6>
+							<ul class="footer__list">
+								<li> <a href="Profile.html"> Profile </a>
+								</li>
+								<li> <a href="Creators.html"> Creators </a>
+								</li>
+								<li> <a href="Collections.html"> Colletctions </a>
+								</li>
+								<li> <a href="Activity.html"> Activity
+									</a> </li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h6 class="footer__title">Company</h6>
+							<ul class="footer__list">
+								<li> <a href="Upload-type.html"> Upload Types </a>
+								</li>
+								<li> <a href="Upload.html"> Upload </a> </li>
+								<li> <a href="Connect-wallet.html"> Connect wallet
+									</a> </li>
+								<li> <a href="Item-details.html"> Item details </a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<p class="copyright text-center">
+						Copyright © 2021. Created with love by creabik.
+					</p>
+				</div>
+			</footer>
+		</div>
+		<!-- 🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈 SCRIPTS -->
+		<script src="assets/js/jquery-3.6.0.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/swiper-bundle.min.js"></script>
+		<script src="assets/js/gsap.min.js"></script>
+		<script src="assets/js/ScrollTrigger.min.js"></script>
+		<script src="assets/js/sticky-sidebar.js"></script>
+		<script src="assets/js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+		<script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+		<script src="assets/js/nft.js"></script>
+		<script
+			src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	</body>
+</html>
